@@ -1,0 +1,62 @@
+html,body{
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+.centrale{
+width: 75%;
+height: 50%;
+opacity:0.9;
+filter:alpha(opacity=90); 
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.lien{
+    width: 75%;
+
+}
+
+img.background1 {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+img.background2 {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+img.background2 {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+
+.footer{
+	width: 100%;
+	height: 25px;
+	background-color: white;
+    margin-top: 75%;
+}
+
+.ecusson{
+    width: 100%;
+    height: 100%;
+}
+
+.lien a{
+text-align:center;
+text-decoration:none;
+font-size: 2em;
+margin-left: auto;
+margin-right: auto;
+}
