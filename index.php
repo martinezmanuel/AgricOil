@@ -16,7 +16,7 @@
      
      <div class="centrale">
         <div>
-          <img src="images/ecussons/agricoil-huile-fabrication-francaise.jpg" alt="ecussons agricoil" class="ecusson">
+          <img src="images/ecussons/agricoil-huile-fabrication-francaise.jpg" alt="ecussons agricoil" class="agricoil">
         </div>
 
         <div class="lien">
@@ -28,11 +28,12 @@
    
         
     </div> 
-          <div class="footer">    
-             <footer>
-               <?php include("footer.php"); ?>
-             </footer> 
-          </div> 
+
+    <div class="footer">    
+         <footer>
+           <?php include("footer.php"); ?>
+          </footer> 
+    </div> 
        
 
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -41,13 +42,4 @@
   </body>
 
   </html>
-<!--               _____   _____
-    /\      /\     |      |    |  |   | 
-   /  \    /  \    |____  |____|  |___|  
-  /    \  /    \   |      |       |   |
- /      \/      \  |____  |       |   |
 
-
-
-
-  -->
