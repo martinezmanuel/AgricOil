@@ -3,6 +3,7 @@
   <html lang="fr">
   <head>
     <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="css/style.css"/>
         <!--Let browser know website is optimized for mobile-->
@@ -14,24 +15,27 @@
     <div class="container-fluid">
       <img src="images/fonds/paysage-dechaumage.jpg" alt="paysage-dechaumage" class="background2"/>
      
-     <div class="centrale">
-      <div class="ecusson"> 
+     <div class="centrale-2">
+       <div class="marque">  
 
-        <img src="images/ecussons/ecusson-agricoil.jpg" alt="ecussons agricoil">
+        <img class="ecusson" src="images/ecussons/ecusson-agricoil.jpg" alt="ecussons agricoil">
 
-      </div> 
-      <div class="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore repudiandae enim nemo quia, accusantium consequuntur, nam reprehenderit asperiores veniam ipsam? Quasi fugiat repudiandae, ullam laudantium porro quisquam inventore, neque aliquam.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat corrupti illum optio id facere, explicabo perspiciatis, ducimus ut numquam aliquam saepe? Reprehenderit dolorum, voluptate eveniet quae, pariatur architecto eum atque.
       </div>
-       <div class="fiche">
+
+      <div class="fiche">
         
         <img src="images/fiche-produits/bidon-huile-hydraulique.jpg" alt="huile-hydraulique">
         
       </div>  
+       
+      <div class="text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore repudiandae enim nemo quia, accusantium consequuntur, nam reprehenderit asperiores veniam ipsam? Quasi fugiat repudiandae, ullam laudantium porro quisquam inventore, neque aliquam.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat corrupti illum optio id facere, explicabo perspiciatis, ducimus ut numquam aliquam saepe? Reprehenderit dolorum, voluptate eveniet quae, pariatur architecto eum atque.
+      </div>
+       
 
-        <div class="lien">
-          <a href="produits.php">Huiles</a> 
+        <div class="lien" id="menu">
+          <a href="produits.php">Retour</a> 
           <a href="contact.php">Contact</a>
         </div>
       </div> 

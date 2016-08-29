@@ -1,23 +1,50 @@
-html,body{
-  height:100%;
-  margin:0;
-  padding:0;
+html{
+    height:100%;
 }
+
+body{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Arial,Helvetica, sans-serif;
+}
+
 
 .centrale{
-width: 60%;
-height: 50%;
-opacity:0.9;
-filter:alpha(opacity=90); 
-margin-left: auto;
-margin-right: auto;
-margin-top: 1,5%;
-background-color: white;
+    width: 550px;
+    height: 600px;
+    background-color: white;
+    opacity:0.9;
+    filter:alpha(opacity=90); 
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
 }
 
+.centrale-2{
+    padding-bottom: 100px;
+    width: 650px;
+    height: 600px;
+    opacity:0.9;
+    filter:alpha(opacity=90);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    background-color: white;
+}
+
+
 .lien{
-    width: 100%;
-  
+    width: auto;
+    clear: both;
+}
+
+#menu{
+    width: auto;
+    clear: both;
+    background-color: white;
 }
 
 img.background1 {
@@ -41,80 +68,128 @@ img.background3 {
     z-index:-1;
 }
 
-
 .footer{
-	width: 100%;
-	height: 25px;
-	background-color: white;
-  margin-top: 0 auto;
-
+	  min-width: 100%;
+	  height: 25px;
+	  background-color: white;
+    position: absolute; bottom: 0; left: 0; right: 0
 }
 
 .agricoil{
-  width: 80%;
-  height: 60%;
-  margin-right: auto;
-  margin-left: 10%;
-
+    width: 90%;
+    height: 60%;
+    margin-right: auto;
+    margin-left: 5%;
 }
-.marque{
 
+.marque{
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin: auto;
 }
 
 .ecusson{
-  width: 55%;
-  height: 55%;
-  margin-right: 10%;
-  background-color: red;
-  float: left;
+    width: 90%;
+    float: left;
+}
+
+.type{
+    width: 50%;
 }
 
 .form{
-  display: flex;
-  flex-direction: column;
-  background-color: blue;
-  border: 2px solid #000000;
-  width: 70%;
-  height: 70%;
+    margin-top: 10%;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    float: right;
 }
 
 .text{
-  margin-left: 1%;
-  text-align: right;
-  height: 300px;
-  width: 300px;
-  clear: both;
-  background-color: green;
+    text-align: left;
+    height: 50%;
+    width: 45%;
+    float: right;
+    margin-top: 5%;
+    margin-left: 1%;
 }
 
 .produit{
-  float: right;
+    margin-top: 5%;
+    float: right;
+    width: 50%;
+    height: 100%;
+    display: inline;
+}
+
+
+
+.fiche{
+    margin-top: 5%;
+    margin-left: 3%;
+    float: right;
+    width: 47%;
+    height: 90%;
+
 }
 
 .fiche img{
-  width: 40%;
-  height: 40%;
+    margin-left: 2%;
+    width: 80%;
+    height: 100%;
+    float: right;
 
 }
 
-.lien{
-  clear: both;
+.centrage{
+    text-align: center;
 }
 
 .lien a{
-  text-align:center;
-  text-decoration:none;
-  font-size: 2em;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 25%;
+    text-align:center;
+    text-decoration:none;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25%;
+}
+
+.menu a{
+    text-align:center;
+    text-decoration:none;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25%;
 }
 
 ol,li{
     list-style-type: none;
+    margin-right: 5%;
 }
 
+a:link{
+    text-decoration: none;
+}    
 
+figure{
+    display: inline-block;
+    width: 50%;
+}
+
+figcaption{
+
+display: inline;
+}
+
+h3{
+  font-size : .9em;
+}
+
+.droite{
+  float: right;
+}
 
 /* ----------- iPhone 4 and 4S ----------- */
 
@@ -163,10 +238,31 @@ ol,li{
   and (device-width: 320px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) {
+    .{}
+  
+    .footer{
+
+    }  
+    .centrale2 {
+  width: 70%;
+  height: 70%;
+  opacity:0.9;
+  filter:alpha(opacity=90);
+  background-color: white; 
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  margin-top: 50%;
+              }
+    }       
 
 }
 
 /* ----------- Galaxy S4 ----------- */
+/* ----------- HTC One ------------- */
+/* ----------- Galaxy S5 ----------- */
 
 /* Portrait and Landscape */
 @media screen 
@@ -176,38 +272,11 @@ ol,li{
 
 }
 
-/* ----------- Galaxy S5 ----------- */
 
-/* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
-
-}
-
-* ----------- HTC One ----------- */
-
-/* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
-
-}
-
-
-/* ----------- iPad mini ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-}
-
+/* ----------- iPad mini -------------- */
 /* ----------- iPad 1 and 2 ----------- */
+/* ----------- iPad 3 and 4 ----------- */
+
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 768px) 
@@ -216,14 +285,6 @@ ol,li{
 
 }
 
-/* ----------- iPad 3 and 4 ----------- */
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
 
 /* ----------- Galaxy Tab 10.1 ----------- */
 
@@ -234,7 +295,7 @@ ol,li{
 
 }
 
-* ----------- Asus Nexus 7 ----------- */
+/* ----------- Asus Nexus 7 ----------- */
 
 /* Portrait and Landscape */
 @media screen 

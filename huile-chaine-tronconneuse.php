@@ -3,6 +3,7 @@
   <html lang="fr">
   <head>
     <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="css/style.css"/>
         <!--Let browser know website is optimized for mobile-->
@@ -14,23 +15,24 @@
     <div class="container-fluid">
       <img src="images/fonds/paysage-dechaumage.jpg" alt="paysage-dechaumage" class="background2"/>
      
-     <div class="centrale">
-      <div class="ecusson"> 
+     <div class="centrale-2">
+      <div class="marque"> 
 
-        <img src="images/ecussons/ecusson-agricoil.jpg" alt="ecussons agricoil">
+        <img class="ecusson" src="images/ecussons/ecusson-agricoil.jpg" alt="ecussons agricoil">
 
       </div> 
+       <div class="fiche">
+        
+        <img src="images/fiche-produits/bidon-huile-hydraulique.jpg" alt="huile-hydraulique">
+        
+      </div>
       <div class="text">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos amet recusandae maxime modi quaerat explicabo reprehenderit dolores provident cupiditate vero beatae sit porro nihil, itaque quam? Iste earum quaerat, repellendus.
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet accusantium, cumque eveniet expedita eius odio magni ipsa consequatur, ipsam exercitationem eaque, quisquam nobis quia provident fugiat magnam. Asperiores optio, dolorum.
       </div>
-      <div class="fiche">
-        
-        <img src="images/fiche-produits/bidon-huile-hydraulique.jpg" alt="huile-hydraulique">
-        
-      </div>  
-        <div class="lien">
-          <a href="produits.php">Huiles</a> 
+       
+        <div class="lien" id="menu">
+          <a href="produits.php">Retour</a> 
           <a href="contact.php">Contact</a>
         </div>
       </div> 

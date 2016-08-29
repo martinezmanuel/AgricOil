@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+ <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
  <link type="text/css" rel="stylesheet" href="css/style.css"/>
  <!--Let browser know website is optimized for mobile-->
@@ -15,7 +16,7 @@
 
         <img src="images/fonds/paysage-moisonneuse-batteuse.jpg" alt="paysage-moissonneuse-batteuse" class="background3"/>
    
-    <div class="centrale" id="contact">
+    <div class="centrale-2" >
 
       <div class="marque" >
 
@@ -29,8 +30,10 @@
             <ol>
 
               <li>
-
-                <select name="choix">Vous êtes?
+                
+                <label for="inputchoix">Vous êtes? </label>
+                
+                <p><select name="choix">
 
                   <option value="choix1">Un distributeur</option>
 
@@ -42,7 +45,7 @@
 
               <li>
 
-                  <label for="inputname">Nom</label>
+                  <label for="inputname">Nom </label>
                   <input required type="text" name="name" class="form-control" id="inputname" value="<?php echo isset($_SESSION['inputs']['name'])? $_SESSION['inputs']['name'] : ''; ?>">
 
               </li>
@@ -82,17 +85,17 @@
 
          <div class="text">
         <p style="text-align:center">Nous contacter</p>
-        <p>Vous êtes distributeur et vous </p>
-        souhaitez commercialiser la </p>
-        marque AgricOil? Vous souhaitez </p>
-        acheter de l'huile en direct? </p>
-        Laissez nous vos coordonnées </p>
-        nous vous recontacterons sous </p>
-        24-48H jours ouvrés </p>
+        Vous êtes distributeur et vous 
+        souhaitez commercialiser la 
+        marque AgricOil? 
+        Vous souhaitez acheter de l'huile en direct? 
+        Laissez nous vos coordonnées 
+        nous vous recontacterons sous 
+        24-48H jours ouvrés 
 
       </div>
 
-    <div class="lien">
+    <div class="lien" id="menu">
 
         <a href="produits.php">Huiles</a>
         <a href="index.php">Accueil</a>
