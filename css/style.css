@@ -96,6 +96,9 @@ img.background3 {
 
 .type{
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .form{
@@ -112,34 +115,43 @@ img.background3 {
     width: 45%;
     float: right;
     margin-top: 5%;
-    margin-left: 1%;
+    margin-left: 4%;
 }
 
 .produit{
     margin-top: 5%;
     float: right;
-    width: 50%;
+    width: 45%;
     height: 100%;
     display: inline;
+}
+
+#text-prod{
+  margin-right: 5%;
 }
 
 
 
 .fiche{
     margin-top: 5%;
-    margin-left: 3%;
+    margin-right: 3%;
     float: right;
     width: 47%;
     height: 90%;
-
 }
 
 .fiche img{
-    margin-left: 2%;
     width: 80%;
     height: 100%;
     float: right;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
+img.huile{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .centrage{
@@ -190,6 +202,16 @@ h3{
 .droite{
   float: right;
 }
+
+.gauche{
+  float: left;
+}
+
+h3{
+  text-align: center;
+}
+
+
 
 /* ----------- iPhone 4 and 4S ----------- */
 
