@@ -1,6 +1,7 @@
 
   <!DOCTYPE html>
   <html lang="fr">
+  
   <head>
 
     <meta charset="UTF-8">
@@ -37,9 +38,10 @@
 
       <div class="text" >
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos amet recusandae maxime modi quaerat explicabo reprehenderit dolores provident cupiditate vero beatae sit porro nihil, itaque quam? Iste earum quaerat, repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet accusantium, cumque eveniet expedita eius odio magni ipsa consequatur, ipsam exercitationem eaque, quisquam nobis quia provident fugiat magnam. Asperiores optio, dolorum.
+        <h2>HUILE CHAINE TRONCONNEUSE</h2>
 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos amet recusandae maxime modi quaerat explicabo reprehenderit dolores provident cupiditate vero beatae sit porro nihil, itaque quam? Iste earum quaerat, repellendus.
+        
       </div>
        
         <div class="lien" id="menu">

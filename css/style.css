@@ -73,6 +73,7 @@ img.background3 {
 	  height: 25px;
 	  background-color: white;
     position: absolute; bottom: 0; left: 0; right: 0
+    
 }
 
 .agricoil{
@@ -80,6 +81,7 @@ img.background3 {
     height: 60%;
     margin-right: auto;
     margin-left: 5%;
+    margin-top: 1%;
 }
 
 .marque{
@@ -87,11 +89,15 @@ img.background3 {
     height: 50%;
     float: left;
     margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .ecusson{
     width: 90%;
     float: left;
+    margin-left: 7%;
+
 }
 
 .type{
@@ -102,7 +108,8 @@ img.background3 {
 }
 
 .form{
-    margin-top: 10%;
+    margin-top: 3%;
+    margin-bottom: 7%;
     background-color: white;
     width: 50%;
     height: 100%;
@@ -114,12 +121,14 @@ img.background3 {
     height: 50%;
     width: 45%;
     float: right;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 4%;
+    font-size: .9em;
 }
 
 .produit{
     margin-top: 5%;
+    margin-bottom: 6%;
     float: right;
     width: 45%;
     height: 100%;
@@ -127,17 +136,16 @@ img.background3 {
 }
 
 #text-prod{
-  margin-right: 5%;
+    margin-right: 5%;
 }
 
-
-
 .fiche{
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 11%;
     margin-right: 3%;
     float: right;
     width: 47%;
-    height: 90%;
+    height: 95%;
 }
 
 .fiche img{
@@ -150,21 +158,24 @@ img.background3 {
 }
 
 img.huile{
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .centrage{
     text-align: center;
 }
 
-.lien a{
-    text-align:center;
-    text-decoration:none;
-    font-size: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 25%;
+.droite{
+    float: right;
+}
+
+.gauche{
+    float: left;
+}
+
+.bouton{
+    margin-top: 4%;
 }
 
 .menu a{
@@ -176,14 +187,36 @@ img.huile{
     padding-left: 25%;
 }
 
-ol,li{
-    list-style-type: none;
-    margin-right: 5%;
+.lien a{
+    text-align:center;
+    text-decoration:none;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25%;
+}
+
+.lien a:hover{
+    color:  #fe7314;
+}
+
+a{
+    color: #696969;
+    font-family: Arial,Helvetica, sans-serif;
 }
 
 a:link{
     text-decoration: none;
-}    
+} 
+
+#foot a:hover{
+    color:  #fe7314;
+}
+
+ol,li{
+    list-style-type: none;
+    margin-right: 5%;
+}   
 
 figure{
     display: inline-block;
@@ -191,26 +224,20 @@ figure{
 }
 
 figcaption{
+    display: inline;
+}
 
-display: inline;
+h2{
+    text-align: center;
+    color:  #fe7314;
+    font-size: 1.8em;
 }
 
 h3{
-  font-size : .9em;
+    text-align: center;
+    color:  #fe7314;
+    font-size : 1em; 
 }
-
-.droite{
-  float: right;
-}
-
-.gauche{
-  float: left;
-}
-
-h3{
-  text-align: center;
-}
-
 
 
 /* ----------- iPhone 4 and 4S ----------- */
