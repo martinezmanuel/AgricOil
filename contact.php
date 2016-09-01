@@ -111,9 +111,9 @@
 
     <div class="lien" id="menu">
 
-        <a href="produits.php">Huiles</a>
-
         <a href="index.php">Accueil</a>
+
+        <a href="produits.php">Huiles</a>
 
     </div>
 

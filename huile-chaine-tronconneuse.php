@@ -38,7 +38,7 @@
 
       <div class="text" >
 
-        <h2>HUILE CHAINE TRONCONNEUSE</h2>
+        <h2>HUILE TRON&#199ONNEUSE</h2>
 
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos amet recusandae maxime modi quaerat explicabo reprehenderit dolores provident cupiditate vero beatae sit porro nihil, itaque quam? Iste earum quaerat, repellendus.
         

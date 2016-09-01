@@ -38,7 +38,7 @@
       
       <div class="text">
 
-         <h2>HUILE RICINEE</h2>
+         <h2>HUILE RICIN&#201E</h2>
 
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore consequuntur ducimus obcaecati natus id quasi quaerat nemo deserunt, soluta saepe. Deleniti veniam nisi repellendus maiores numquam. Laborum porro error, nulla.
        
