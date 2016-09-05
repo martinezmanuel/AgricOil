@@ -69,7 +69,7 @@
 
                   <label for="inputtelephone">Téléphone</label>
 
-                  <input required  type="tel" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" name="number" class="form-control" id="inputtel" value="<?php echo isset($_SESSION['inputs']['tel'])? $_SESSION['inputs']['telephone'] : ''; ?>"> 
+                  <input required  type="tel" pattern="(0|\+33)[1-9]( *[0-9]{2}){4}" name="number" class="form-control" id="inputtel" value="<?php echo isset($_SESSION['inputs']['tel'])? $_SESSION['inputs']['telephone'] : ''; ?>"> 
 
               </li>
 
@@ -101,8 +101,8 @@
 
         Vous êtes distributeur et vous 
         souhaitez commercialiser la 
-        marque AgricOil? 
-        Vous souhaitez acheter de l'huile en direct? 
+        marque AgricOil ? 
+        Vous souhaitez acheter de l'huile en direct ? 
         Laissez nous vos coordonnées 
         nous vous recontacterons sous 
         24-48H jours ouvrés 
