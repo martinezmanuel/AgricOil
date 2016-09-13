@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -22,7 +23,7 @@
 
       <img src="images/fonds/paysage-dechaumage.jpg" alt="paysage-dechaumage" class="background2"/>
      
-     <div class="centrale-2">
+     <div class="centrale" id="huile">
 
        <div class="marque"> 
 

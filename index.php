@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="css/style.css"/>
+         <link type="text/css" rel="stylesheet" href="css/query.css"/>
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -22,7 +23,7 @@
 
       <img src="images/fonds/paysage-agricole.jpg" alt="paysage-agricole" class="background1"/>
      
-      <div class="centrale">
+      <div class="centrale" id="acceuil">
 
         <div>
 

@@ -21,7 +21,7 @@
 
         <img src="images/fonds/paysage-moisonneuse-batteuse.jpg" alt="paysage-moissonneuse-batteuse" class="background3"/>
    
-    <div class="centrale-2" >
+    <div class="centrale" id="contact" >
 
       <div class="marque" >
 
@@ -77,12 +77,12 @@
 
                   <label for="inputmessage">Message</label>
 
-                  <textarea rows="4" cols="16" required id="inputmessage" name="message" class="form-control"><?php echo isset($_SESSION['inputs']['message'])? $_SESSION['inputs']['message'] : ''; ?></textarea>
+                  <textarea rows="3" cols="10" required id="inputmessage" name="message"  value="" class="form-control"><?php echo isset($_SESSION['inputs']['message'])? $_SESSION['inputs']['message'] : ''; ?>Merci de nous décrire votre demande ici</textarea>
 
                   <P> 
                       <input class="bouton" type="submit" value="Envoyer">
 
-                      <input class="bouton" type="reset" value="Effacer">
+                   <!--   <input class="bouton" type="reset" value="Effacer"> -->
 
                   </p>
 

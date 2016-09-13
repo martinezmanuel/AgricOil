@@ -22,7 +22,7 @@
 
      <img src="images/fonds/paysage-dechaumage.jpg" alt="paysage-dechaumage" class="background2"/>
      
-     <div class="centrale-2">
+     <div class="centrale" id="huile">
 
        <div class="marque"> 
 
