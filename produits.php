@@ -35,6 +35,70 @@
 
       <div class="produit">
 
+          <a href="huile-moteur.php">
+
+            <figure class="gauche">
+
+              <img class="type" src="images/choix-huile/huile-moteur.jpg" alt="huile moteur">
+              
+            <figcaption >
+
+                <h3>  MOTEUR </h3>
+
+              </figcaption>
+
+            </figure>  
+
+          </a>
+
+          <a href="huile-hydraulique.php">
+
+            <figure class="droite">
+
+                <img class="type" src="images/choix-huile/huile-hydraulique.jpg" alt="huile hydraulique">
+
+              <figcaption >
+
+                <h3>  HYDRAULIQUE </h3>
+
+              </figcaption>
+
+            </figure>  
+
+          </a>
+
+          <a href="huile-transmission.php">
+
+            <figure class="gauche">
+
+              <img class="type" src="images/choix-huile/huile-transmission.jpg" alt="huile transmission">
+
+            <figcaption >
+
+                <h3>  TRANSMISSION </h3>
+
+              </figcaption>
+
+            </figure>  
+
+          </a>
+
+          <a href="huile-multifonctionnelle.php">
+
+            <figure class="droite">
+
+              <img class="type" src="images/choix-huile/huile-multifonctionnelle.jpg" alt="huile multifonctionnelle">
+
+            <figcaption >
+
+                <h3>  MULTIFONCTIONS </h3>
+
+              </figcaption>
+
+            </figure>  
+
+          </a>
+
 
           <a href="huile-chaine-tronconneuse.php">
 
@@ -44,7 +108,7 @@
 
               <figcaption >
 
-                <h3>  Forestier </h3>
+                <h3>  FORESTIER </h3>
 
               </figcaption>
 
@@ -60,7 +124,7 @@
 
               <figcaption >
 
-                <h3>  Coupe </h3>
+                <h3>  COUPE </h3>
 
               </figcaption>
 
@@ -68,65 +132,16 @@
 
           </a>
 
-
-          <a href="huile-hydraulique.php">
-
-            <figure class="gauche">
-
-                <img class="type" src="images/choix-huile/huile-hydraulique.jpg" alt="huile hydraulique">
-
-              <figcaption >
-
-                <h3>  Hydraulique </h3>
-
-              </figcaption>
-
-            </figure>  
-
-          </a>
-
-          <a href="huile-moteur.php">
-
-            <figure class="droite">
-
-              <img class="type" src="images/choix-huile/huile-moteur.jpg" alt="huile moteur">
-              
-            <figcaption >
-
-                <h3>  Moteur </h3>
-
-              </figcaption>
-
-            </figure>  
-
-          </a>
-
-
-          <a href="huile-multifonctionnelle.php">
-
-            <figure class="gauche">
-
-              <img class="type" src="images/choix-huile/huile-multifonctionnelle.jpg" alt="huile multifonctionnelle">
-
-            <figcaption >
-
-                <h3>  Multifonctions </h3>
-
-              </figcaption>
-
-            </figure>  
-
-          </a>
 
           <a href="huile-pompe-a-vide.php">
 
-            <figure class="droite" >
+            <figure class="gauche" >
 
               <img class="type" src="images/choix-huile/huile-pompe-a-vide.jpg" alt="huile pompe à vide">
 
             <figcaption>
 
-                <h3>  Pompe à vide </h3>
+                <h3>  POMPE A VIDE </h3>
 
               </figcaption>
 
@@ -136,13 +151,13 @@
 
           <a href="huile-ricinee.php">
 
-            <figure class="gauche">
+            <figure class="droite">
 
               <img class="type" src="images/choix-huile/huile-ricinee.jpg" alt="huile ricinée">
 
             <figcaption >
 
-                <h3>  Ricinée </h3>
+                <h3>  RICINEE </h3>
 
               </figcaption>
 
@@ -150,21 +165,7 @@
 
           </a>
 
-          <a href="huile-transmission.php">
-
-            <figure class="droite">
-
-              <img class="type" src="images/choix-huile/huile-transmission.jpg" alt="huile transmission">
-
-            <figcaption >
-
-                <h3>  Transmission </h3>
-
-              </figcaption>
-
-            </figure>  
-
-          </a>
+          
 
       </div>
 
@@ -172,8 +173,11 @@
 
           <h2>NOS TYPES D'HUILE</h2>
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptates consequuntur provident cumque quisquam excepturi quibusdam asperiores veniam ipsum reprehenderit. Quisquam quibusdam veritatis cumque atque, nobis quos, eligendi ea mollitia?  
-       
+       Les huiles Agric’Oil sont conçues dans nos usines dans le Maine-et-Loire. Ce sont des huiles fabrication française de très haute qualité et adaptées pour de nombreux domaines d’applications. Nos huiles sont recommandées pour les tracteurs et les matériels agricoles, mais pas seulement ! Nos clients les utilisent également pour leurs voitures, poids-lourds, quads, bateaux, matériels forestiers, matériels d’atelier ...
+
+        Un besoin précis ? Contactez-nous et un expert technique vous répondra dès que possible.
+
+
 
       </div>
 
