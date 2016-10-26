@@ -40,7 +40,14 @@
 
          <h2>HUILE DE TRANSMISSION</h2>
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione fugiat ipsam cum ea itaque eaque iure nesciunt harum sunt earum, iste obcaecati facere delectus, non enim consequuntur cumque molestiae. Vel!
+      Besoin de lubrifier des transmissions hydrauliques ou hydrostatiques, des freins immergés, des transmissions mécaniques (boîtes de vitesses, convertisseurs, boîtes transfert) ?
+      Nos huiles transmission sont conçues pour répondre aux conditions d'emploi les plus sévères des véhicules
+      (agricoles, tourisme, poids-lourds, industrie … ) </br>
+      </br>
+      Nos huiles stars :</br>
+      . TRACTANS SF3 : pouvoir anticorrosion, compatible avec les joints ...</br>
+      . TRACTANS GR12 : excellent pouvoir anti-friction empêchant le broutage et le bruit des freins immergés.</br>
+
        
       </div>
 

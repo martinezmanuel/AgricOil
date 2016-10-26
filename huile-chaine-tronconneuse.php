@@ -41,7 +41,11 @@
 
         <h2>HUILE TRON&#199ONNEUSE</h2>
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos amet recusandae maxime modi quaerat explicabo reprehenderit dolores provident cupiditate vero beatae sit porro nihil, itaque quam? Iste earum quaerat, repellendus.
+        Nous proposons deux types d’huiles pour tronçonneuse. </br> 
+        </br>
+        La SP FORESTIÈRE, renforcée par des polymères assurant l'adhésivité du film d'huile, est recommandée pour l’entretien des chaînes. </br>
+        </br>
+        La SP CHAÎNE, plus polyvalente, permet aussi la lubrification du guide et du pignon d’entraînement.
         
       </div>
        

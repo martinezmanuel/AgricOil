@@ -40,7 +40,13 @@
 
          <h2>HUILE RICIN&#201E</h2>
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore consequuntur ducimus obcaecati natus id quasi quaerat nemo deserunt, soluta saepe. Deleniti veniam nisi repellendus maiores numquam. Laborum porro error, nulla.
+        L’huile RICIN’OIL est un fluide hautement raffinée contenant de l'huile de ricin. Très onctueuse, elle est recommandée pour la lubrification des  équipements et matériels suivants :</br>
+        . Commandes de prise de force et de trains </br>
+        . Transmissions des moteurs </br>
+        . Réducteurs à vis globiques et à roue et vis tangente </br>
+        . Ponts à vis </br>
+        . Certains vieux moteurs (La RICIN’OIL est recherchée pour les tracteurs de collection, nous consulter).</br>
+        Ne pas mélanger avec une huile minérale.
        
       
       </div>

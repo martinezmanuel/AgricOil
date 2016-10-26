@@ -39,7 +39,9 @@
 
          <h2>HUILE MULTIFONCTIONS</h2>
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore repudiandae enim nemo quia, accusantium consequuntur, nam reprehenderit asperiores veniam ipsam? Quasi fugiat repudiandae, ullam laudantium porro quisquam inventore, neque aliquam.
+        Nos huiles multifonctions sont recommandées pour l’agricole, l’industrie, les travaux publics ...</br>
+        </br>
+        Fortes d’un pouvoir détergent élevé et de propriétés anti-rouille renforcées, elles permettent la lubrification des transmissions, des équipements hydrauliques, des freins et embrayages immergés, voire le graissage des moteurs suralimentés.
         
       </div>
        

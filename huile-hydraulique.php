@@ -41,7 +41,9 @@
 
          <h2>HUILE HYDRAULIQUE</h2>
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo consequuntur nam saepe optio temporibus animi veniam at laborum eaque pariatur, deserunt veritatis corrupti incidunt, molestias perspiciatis rem numquam quasi nihil!
+        L’huile hydraulique HV Agric’Oil est essentiellement destinée pour des applications nécessitant un fluide à haut indice de viscosité (Pour l’industrie, pour le levage et la manutention, pour les travaux publics ... )</br>
+      </br>
+        Notre catalogue d’huiles hydrauliques couvrent les grades ISO 22, 32, 46, 46 BIO et 68. Ces huiles ont une excellente filtrabilité (DENISON HF-2). Leur remarquable stabilité à l’hydrolyse et à l’oxydation garantissent la propreté des circuits hydrauliques et la longévité des organes. 
        
       </div>
        

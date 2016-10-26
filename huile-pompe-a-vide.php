@@ -40,7 +40,9 @@
 
          <h2>HUILE POUR POMPE A VIDE</h2>
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dicta rerum inventore aliquam, sint. Sequi atque voluptate est laborum sit ut, excepturi inventore laboriosam illo, blanditiis, officia dignissimos quas alias!
+        Nos huiles sont conçues pour assurer la lubrification des pompes à vide des machines à traire. 
+        Elles permettent le graissage des éléments constitutifs de tous modèles de pompes à vide à système rotatif ou alternatif équipant les installations de salles de traite ou d’étables ou les machines à traire mobiles. 
+        Ces huiles pour machines à traites présentent d’excellentes propriétés anti usure + une résistance à l'oxydation renforcée évitant la formation de dépôts et assurant la longévité du fluide en service.
        
        </div>
 

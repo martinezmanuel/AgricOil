@@ -40,7 +40,12 @@
 
          <h2>HUILE MOTEUR</h2>
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis modi consequatur beatae, quibusdam earum fugit culpa labore, soluta qui, ut maxime totam. Accusamus ducimus, sequi beatae officiis a doloribus possimus.
+        Nos huiles moteur sont recommandées pour une large gamme de véhicules : tracteurs, quads, autos, motos, poids-lourds, télescopiques, bateaux ...</br>
+        Elles répondent aux exigences les plus sévères des différents constructeurs.</br>
+
+        À découvrir, nos huiles stars :</br>
+        . L’OPALISE 15W40 et ses propriétés anti-oxydation renforcées.</br>
+        . La GALIUM 10W40, respectueuse des normes Euro II et Euro III
        
       </div>
        

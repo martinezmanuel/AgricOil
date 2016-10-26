@@ -41,7 +41,11 @@
 
          <h2>HUILE DE COUPE</h2>
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos fugiat sequi, vel nisi impedit cum consequatur et eligendi consequuntur delectus iusto deserunt illo facere soluta, ipsam nihil adipisci est reiciendis.
+        Nos fluides de coupe sont conçus pour traiter les métaux ferreux et non ferreux. </br>
+        </br>
+        Nos huiles coupe stars :</br>
+        . La MULTICOUP : pour toutes les opérations difficiles d’enlèvement de copeaux de type décolletage, tournage, dressage, rabotage sur les aciers et les métaux non ferreux (cuivre, aluminium et leurs alliages)</br>
+        . La SYNTHECOUP : sa bonne mouillabilité permet des opérations d’usinage complexes telles que l’alésage, le taraudage ou le perçage profond de l’aluminium. 
         
       </div>
        
