@@ -4,8 +4,7 @@
 
   <head>
 
-    <meta charset="UTF-8">
-
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="css/style.css"/>
@@ -41,8 +40,8 @@
          <h2>HUILE POUR POMPE A VIDE</h2>
 
         Nos huiles sont conçues pour assurer la lubrification des pompes à vide des machines à traire. 
-        Elles permettent le graissage des éléments constitutifs de tous modèles de pompes à vide à système rotatif ou alternatif équipant les installations de salles de traite ou d’étables ou les machines à traire mobiles. 
-        Ces huiles pour machines à traites présentent d’excellentes propriétés anti usure + une résistance à l'oxydation renforcée évitant la formation de dépôts et assurant la longévité du fluide en service.
+        Elles permettent le graissage des &#232l&#232ments constitutifs de tous mod&#232les de pompes à vide à syst&#232me rotatif ou alternatif &#232quipant les installations de salles de traite ou d’&#232tables ou les machines à traire mobiles. 
+        Ces huiles pour machines à traites pr&#232sentent d’excellentes propri&#232t&#232s anti usure + une r&#232sistance à l'oxydation renforc&#232e &#232vitant la formation de d&#232pôts et assurant la long&#232vit&#232 du fluide en service.
        
        </div>
 

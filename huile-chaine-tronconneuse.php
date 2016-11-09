@@ -1,10 +1,12 @@
-
+<?php
+header('Content-Type: text/html; charset=utf-8');
+?>
   <!DOCTYPE html>
   <html lang="fr">
   
   <head>
 
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
 
         <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
@@ -43,9 +45,9 @@
 
         Nous proposons deux types d’huiles pour tronçonneuse. </br> 
         </br>
-        La SP FORESTIÈRE, renforcée par des polymères assurant l'adhésivité du film d'huile, est recommandée pour l’entretien des chaînes. </br>
+        La SP FORESTI&#200RE, renforc&#233;e par des polym&#232;res assurant l'adh&#233;sivit&#233 du film d'huile, est recommand&#233e pour l’entretien des chaînes. </br>
         </br>
-        La SP CHAÎNE, plus polyvalente, permet aussi la lubrification du guide et du pignon d’entraînement.
+        La SP CHA&#206;NE, plus polyvalente, permet aussi la lubrification du guide et du pignon d’entraînement.
         
       </div>
        

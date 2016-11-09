@@ -4,7 +4,7 @@
 
   <head>
 
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
 
         <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
@@ -40,11 +40,11 @@
 
          <h2>HUILE MOTEUR</h2>
 
-        Nos huiles moteur sont recommandées pour une large gamme de véhicules : tracteurs, quads, autos, motos, poids-lourds, télescopiques, bateaux ...</br>
-        Elles répondent aux exigences les plus sévères des différents constructeurs.</br>
+        Nos huiles moteur sont recommand&#233es pour une large gamme de v&#233hicules : tracteurs, quads, autos, motos, poids-lourds, t&#233lescopiques, bateaux ...</br>
+        Elles r&#233pondent aux exigences les plus s&#233v&#232res des diff&#233rents constructeurs.</br>
 
-        À découvrir, nos huiles stars :</br>
-        . L’OPALISE 15W40 et ses propriétés anti-oxydation renforcées.</br>
+        À d&#233couvrir, nos huiles stars :</br>
+        . L’OPALISE 15W40 et ses propri&#233t&#233s anti-oxydation renforc&#233es.</br>
         . La GALIUM 10W40, respectueuse des normes Euro II et Euro III
        
       </div>

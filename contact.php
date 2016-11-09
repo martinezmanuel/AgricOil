@@ -1,14 +1,15 @@
 <?php
 
+
   // S'il y des données de postées
 if ($_SERVER['REQUEST_METHOD']=='POST') {
   // Code PHP pour traiter l'envoi de l'email
  
   $nombreErreur = 0; // Variable qui compte le nombre d'erreur
   // Définit toutes les erreurs possibles
-  if (!isset($_POST['email'])) { // Si la variable "email" du formulaire n'existe pas (il y a un problème)
+  if (!isset($_POST['email'])) { // Si la variable "email" du formulaire n'existe pas (il y a un probl&egraveme)
     $nombreErreur++; // On incrémente la variable qui compte les erreurs
-    $erreur1 = '<p>Il y a un problème avec la variable "email".</p>';
+    $erreur1 = '<p>Il y a un probl&egraveme avec la variable "email".</p>';
   } else { // Sinon, cela signifie que la variable existe (c'est normal)
     if (empty($_POST['email'])) { // Si la variable est vide
       $nombreErreur++; // On incrémente la variable qui compte les erreurs
@@ -23,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
  
   if (!isset($_POST['message'])) {
     $nombreErreur++;
-    $erreur4 = '<p>Il y a un problème avec la variable "message".</p>';
+    $erreur4 = '<p>Il y a un probl&egraveme avec la variable "message".</p>';
   } else {
     if (empty($_POST['message'])) {
       $nombreErreur++;
@@ -34,19 +35,23 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
   if ($nombreErreur==0) { 
      
       // Récupération des variables et sécurisation des données
-      $nom     = htmlentities($_POST['name']); // htmlentities() convertit des caractères "spéciaux" en équivalent HTML
-      $email   = htmlentities($_POST['email']);
-      $tel     = htmlentities($_POST['number']);
-      $message = htmlentities($_POST['message']);
+      $nom     = htmlspecialchars($_POST['name']); // htmlspecialchars() convertit des caract&egraveres "spéciaux" en équivalent HTML
+      $email   = htmlspecialchars($_POST['email']);
+      $tel     = htmlspecialchars($_POST['number']);
+      $choix   = htmlspecialchars($_POST['choix']);
+      $message = htmlspecialchars($_POST['message']);
+
      
       // Variables concernant l'email
      
-      $destinataire = 'm-martinez@agram.fr'; // Adresse email du webmaster (à personnaliser)
+      $destinataire = 'm.martinez@agram.fr'; // Adresse email du webmaster (à personnaliser)
       $sujet = 'Titre du message'; // Titre de l'email
       $contenu = '<html><head><title>Titre du message</title></head><body>';
-      $contenu .= '<p>Bonjour, vous avez reçu un message à partir de votre site web.</p>';
+      $contenu .= '<p>Bonjour, vous avez reçu un message à partir de AgricOil.fr.</p>';
       $contenu .= '<p><strong>Nom</strong>: '.$name.'</p>';
       $contenu .= '<p><strong>Email</strong>: '.$email.'</p>';
+      $contenu .= '<p><strong>Demandeur</strong>:'.$choix.'</p>';
+      $contenu .= '<p><strong>Tel</strong>:'.$number.'</p>';
       $contenu .= '<p><strong>Message</strong>: '.$message.'</p>';
       $contenu .= '</body></html>'; // Contenu du message de l'email (en XHTML)
      
@@ -55,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
       $headers .= 'Content-type: text/html; charset=UTF-8'."\r\n";
      
       // Envoyer l'email
-      mail($destinataire, $sujet, $contenu, $headers, $tel); // Fonction principale qui envoi l'email
+      mail($destinataire, $sujet, $contenu, $headers); // Fonction principale qui envoi l'email
       echo '<h4>Votre message a été envoyé!</h4>'; // Afficher un message pour indiquer que le message a été envoyé
       // (2) Fin du code pour traiter l'envoi de l'email
       } 
@@ -72,7 +77,6 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
     echo '</div>';
   }
 }
-   
 
   ?>
 
@@ -80,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8" />
 
     <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
@@ -118,9 +122,9 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
                 
                 <p><select name="choix">
 
-                  <option name="choix1" value="choix1">Un distributeur</option>
+                  <option name="choix1" value="distributeur">Un distributeur</option>
 
-                  <option name="choix2" value="choix2">Un client</option>
+                  <option name="choix2" value="client">Un client</option>
 
                 </select>
 
@@ -154,7 +158,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 
                   <label for="inputmessage">Message</label>
 
-                  <textarea rows="3" cols="10" required id="inputmessage" name="message"   class="form-control"value="<?php echo isset($_SESSION['inputs']['message'])? $_SESSION['inputs']['message'] : ''; ?>">Merci de nous décrire votre demande ici</textarea>
+                  <textarea rows="3" cols="10" required id="inputmessage" name="message"   class="form-control" value="<?php echo isset($_SESSION['inputs']['message'])? $_SESSION['inputs']['message'] : ''; ?>"></textarea>
 
                   <P> 
                       <input class="bouton" type="submit" value="Envoyer">
@@ -181,12 +185,12 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 
         <h2>NOUS CONTACTER</h2>
 
-        Vous êtes distributeur et vous 
+        Vous &#234;tes distributeur et vous 
         souhaitez commercialiser la 
         marque AgricOil ? 
         Vous souhaitez acheter de l'huile en direct ? 
         Laissez nous vos coordonnées 
-        nous vous recontacterons sous 
+        nous vous recontacterons sous</br> 
         24-48H jours ouvrés 
 
         </div>

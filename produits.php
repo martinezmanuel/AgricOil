@@ -4,7 +4,7 @@
 
 <head>
 
-    <meta charset="UTF-8">
+    <meta  charset="UTF-8" />
 
     <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
 	  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
@@ -173,7 +173,7 @@
 
           <h2>NOS TYPES D'HUILE</h2>
 
-       Les huiles Agric’Oil sont conçues dans nos usines dans le Maine-et-Loire. Ce sont des huiles fabrication française de très haute qualité et adaptées pour de nombreux domaines d’applications. Nos huiles sont recommandées pour les tracteurs et les matériels agricoles, mais pas seulement ! Nos clients les utilisent également pour leurs voitures, poids-lourds, quads, bateaux, matériels forestiers, matériels d’atelier ...
+       Les huiles Agric’Oil sont conçues dans nos usines en France. Ce sont des huiles fabrication française de très haute qualité et adaptées pour de nombreux domaines d’applications. Nos huiles sont recommandées pour les tracteurs et les matériels agricoles, mais pas seulement ! Nos clients les utilisent également pour leurs voitures, poids-lourds, quads, bateaux, matériels forestiers, matériels d’atelier ...
 
         Un besoin précis ? Contactez-nous et un expert technique vous répondra dès que possible.
 
