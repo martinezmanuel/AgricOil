@@ -1,16 +1,18 @@
-<?php
-header('Content-Type: text/html; charset=utf-8');
-?>
+
   <!DOCTYPE html>
   <html lang="fr">
   
   <head>
 
     <meta charset="UTF-8" />
+    <meta name="descrition" content="descriptif pour les types d'huiles reservé à une utilisation sur du matériel forestier">
+    <meta name="keywords" content="huile tronçonneuse Agricoil,huile tronçonneuse chaine,bio">
+    
+    
 
-        <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
-        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen"/>
+        <link type="text/css" rel="stylesheet" href="css/style.min.css"/>
         
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -41,13 +43,13 @@ header('Content-Type: text/html; charset=utf-8');
 
       <div class="text" >
 
-        <h2>HUILE TRON&#199ONNEUSE</h2>
+        <h2>HUILE TRONÇNNEUSE</h2>
 
         Nous proposons deux types d’huiles pour tronçonneuse. </br> 
         </br>
-        La SP FORESTI&#200RE, renforc&#233;e par des polym&#232;res assurant l'adh&#233;sivit&#233 du film d'huile, est recommand&#233e pour l’entretien des chaînes. </br>
+        La SP FORESTIÊRE, renforcée par des polymères assurant l'adhésivité du film d'huile, est recommandée pour l’entretien des chaînes. </br>
         </br>
-        La SP CHA&#206;NE, plus polyvalente, permet aussi la lubrification du guide et du pignon d’entraînement.
+        La SP CHAÎNE, plus polyvalente, permet aussi la lubrification du guide et du pignon d’entraînement.
         
       </div>
        

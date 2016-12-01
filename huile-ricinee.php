@@ -5,14 +5,18 @@
   <head>
 
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="descrition" content="description des huile ricinée pour les tracteur de collection">
+        <meta name="keywords" content="huile ricinée Agricoil,huile vieux tracteur,tracteur de collection">
+        
+    
 
-        <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
-        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen"/>
+        <link type="text/css" rel="stylesheet" href="css/style.min.css"/>
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>Huile ricin&#233e</title>
+    <title>Huile ricinée</title>
 
   </head>
 
@@ -38,15 +42,15 @@
       
       <div class="text">
 
-         <h2>HUILE RICIN&#201E</h2>
+         <h2>HUILE RICINÉE</h2>
 
-        L’huile RICIN’OIL est un fluide hautement raffin&#233e contenant de l'huile de ricin. Tr&#232s onctueuse, elle est recommand&#233e pour la lubrification des  &#233quipements et mat&#233riels suivants :</br>
+        L’huile RICIN’OIL est un fluide hautement raffinée contenant de l'huile de ricin. Trés onctueuse, elle est recommandée pour la lubrification des  équipements et matériels suivants :</br>
         . Commandes de prise de force et de trains </br>
         . Transmissions des moteurs </br>
-        . R&#233ducteurs à vis globiques et à roue et vis tangente </br>
+        . Réducteurs à vis globiques et à roue et vis tangente </br>
         . Ponts à vis </br>
-        . Certains vieux moteurs (La RICIN’OIL est recherch&#233e pour les tracteurs de collection).</br>
-        Ne pas m&#233langer avec une huile min&#233rale.
+        . Certains vieux moteurs (La RICIN’OIL est recherchée pour les tracteurs de collection).</br>
+        Ne pas mélanger avec une huile minérale.
        
       
       </div>

@@ -5,10 +5,14 @@
   <head>
 
     <meta charset="UTF-8" />
+    <meta name="descrition" content="description des produits de type huile de coupe">
+    <meta name="keywords" content="huile de coupe Agricoil,huile de coupe scie à ruban,huile synthétique">
+        
+    
 
-        <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
-        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen"/>
+        <link type="text/css" rel="stylesheet" href="css/style.min.css"/>
          
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -41,11 +45,11 @@
 
          <h2>HUILE DE COUPE</h2>
 
-        Nos fluides de coupe sont conçus pour traiter les m&#233taux ferreux et non ferreux. </br>
+        Nos fluides de coupe sont conçus pour traiter les métaux ferreux et non ferreux. </br>
         </br>
         Nos huiles coupe stars :</br>
-        . La MULTICOUP : pour toutes les op&#233rations difficiles d’enlèvement de copeaux de type d&#233colletage, tournage, dressage, rabotage sur les aciers et les m&#233taux non ferreux (cuivre, aluminium et leurs alliages)</br>
-        . La SYNTHECOUP : sa bonne mouillabilit&#233 permet des op&#233rations d’usinage complexes telles que l’al&#233sage, le taraudage ou le perçage profond de l’aluminium. 
+        . La MULTICOUP : pour toutes les opérations difficiles d’enlèvement de copeaux de type décolletage, tournage, dressage, rabotage sur les aciers et les métaux non ferreux (cuivre, aluminium et leurs alliages)</br>
+        . La SYNTHECOUP : sa bonne mouillabilité permet des opérations d’usinage complexes telles que l’alésage, le taraudage ou le perçage profond de l’aluminium. 
         
       </div>
        

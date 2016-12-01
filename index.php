@@ -5,11 +5,12 @@
   <head>
 
         <meta charset="UTF-8" />
+        <meta name="descrition" content="Page d'accueil du site d'Acricoil un site vitrine pour des huiles de fabrication française dans le domaine de l'agricole et d'autre ">
+        <meta name="keywords" content="Agricoil,accueil,huiles">
     
-        <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
-        <link type="text/css" rel="stylesheet" href="css/style.css"/>
-         <link type="text/css" rel="stylesheet" href="css/query.css"/>
+        <link type="text/css" rel="stylesheet" href="css/normalise.min.css"/>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen"/>
+        <link type="text/css" rel="stylesheet" href="css/style.min.css"/>
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 

@@ -7,28 +7,29 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
  
   $nombreErreur = 0; // Variable qui compte le nombre d'erreur
   // Définit toutes les erreurs possibles
+  
   if (!isset($_POST['email'])) { // Si la variable "email" du formulaire n'existe pas (il y a un probl&egraveme)
     $nombreErreur++; // On incrémente la variable qui compte les erreurs
-    $erreur1 = '<p>Il y a un probl&egraveme avec la variable "email".</p>';
+    $erreur1 = '<p class="centrage">Il y a un probl&egraveme avec la variable "email".</p>';
   } else { // Sinon, cela signifie que la variable existe (c'est normal)
     if (empty($_POST['email'])) { // Si la variable est vide
       $nombreErreur++; // On incrémente la variable qui compte les erreurs
-      $erreur2 = '<p>Vous avez oublié de donner votre email.</p>';
+      $erreur2 = '<p class="centrage">Vous avez oublié de donner votre email.</p>';
     } else {
       if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
         $nombreErreur++; // On incrémente la variable qui compte les erreurs
-        $erreur3 = '<p>Cet email ne ressemble pas un email.</p>';
+        $erreur3 = '<p class="centrage">Cet email ne ressemble pas un email.</p>';
       }
     }
   }
  
   if (!isset($_POST['message'])) {
     $nombreErreur++;
-    $erreur4 = '<p>Il y a un probl&egraveme avec la variable "message".</p>';
+    $erreur4 = '<p class="centrage">Il y a un probl&egraveme avec la variable "message".</p>';
   } else {
     if (empty($_POST['message'])) {
       $nombreErreur++;
-      $erreur5 = '<p>Vous avez oublié de donner un message.</p>';
+      $erreur5 = '<p class="centrage">Vous avez oublié de donner un message.</p>';
     }
   }    // (3) Ici, il sera possible d'ajouter plus tard un code pour vérifier un captcha anti-spam.
  
@@ -40,24 +41,27 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
       $tel     = htmlspecialchars($_POST['number']);
       $choix   = htmlspecialchars($_POST['choix']);
       $message = htmlspecialchars($_POST['message']);
-
+      $from    = "contact@agricoil.fr";
+      
      
       // Variables concernant l'email
      
-      $destinataire = 'm.martinez@agram.fr'; // Adresse email du webmaster (à personnaliser)
-      $sujet = 'Titre du message'; // Titre de l'email
+      $destinataire = 'm.favard@agram.fr'; // Adresse email du webmaster (à personnaliser)
+      $sujet = 'Demande d AgricOil'; // Titre de l'email
       $contenu = '<html><head><title>Titre du message</title></head><body>';
       $contenu .= '<p>Bonjour, vous avez reçu un message à partir de AgricOil.fr.</p>';
-      $contenu .= '<p><strong>Nom</strong>: '.$name.'</p>';
-      $contenu .= '<p><strong>Email</strong>: '.$email.'</p>';
-      $contenu .= '<p><strong>Demandeur</strong>:'.$choix.'</p>';
+      $contenu .= '<p><strong>Profil</strong>: '.$choix.'</p>';
+      $contenu .= '<p><strong>Nom</strong>:'.$name.'</p>';
+      $contenu .= '<p><strong>Email</strong>: '.$email.'</p>';      
       $contenu .= '<p><strong>Tel</strong>:'.$number.'</p>';
       $contenu .= '<p><strong>Message</strong>: '.$message.'</p>';
       $contenu .= '</body></html>'; // Contenu du message de l'email (en XHTML)
      
       // Pour envoyer un email HTML, l'en-tête Content-type doit être défini
-      $headers = 'MIME-Version: 1.0'."\r\n";
+      $headers =  'MIME-Version: 1.0'."\r\n";
       $headers .= 'Content-type: text/html; charset=UTF-8'."\r\n";
+      $headers .= 'From : '.$from. "\r\n ";
+      
      
       // Envoyer l'email
       mail($destinataire, $sujet, $contenu, $headers); // Fonction principale qui envoi l'email
@@ -66,13 +70,13 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
       } 
 
     else { // S'il y a un moins une erreur
-    echo '<div style="border:1px solid #ff0000; padding:5px;">';
-    echo '<p style="color:#ff0000;">Désolé, il y a eu '.$nombreErreur.' erreur(s). Voici le détail des erreurs:</p>';
-    if (isset($erreur1)) echo '<p>'.$erreur1.'</p>';
-    if (isset($erreur2)) echo '<p>'.$erreur2.'</p>';
-    if (isset($erreur3)) echo '<p>'.$erreur3.'</p>';
-    if (isset($erreur4)) echo '<p>'.$erreur4.'</p>';
-    if (isset($erreur5)) echo '<p>'.$erreur5.'</p>';
+    echo '<div id ="erreur">';
+    echo '<p class ="centrage">Désolé, il y a eu '.$nombreErreur.' erreur(s). Voici le détail des erreurs:</p>';
+    if (isset($erreur1)) echo '<p class ="centrage">'.$erreur1.'</p>';
+    if (isset($erreur2)) echo '<p class ="centrage">'.$erreur2.'</p>';
+    if (isset($erreur3)) echo '<p class ="centrage">'.$erreur3.'</p>';
+    if (isset($erreur4)) echo '<p class ="centrage">'.$erreur4.'</p>';
+    if (isset($erreur5)) echo '<p class ="centrage">'.$erreur5.'</p>';
     // (4) Ici, il sera possible d'ajouter un code d'erreur supplémentaire si un captcha anti-spam est erroné.
     echo '</div>';
   }
@@ -85,10 +89,14 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="descrition" content="page de contact pour toute demande d'information sur les produits de la gamme Agric'oil">
+    <meta name="keywords" content="">
+        
+    
 
-    <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen"/>
+    <link type="text/css" rel="stylesheet" href="css/style.min.css"/>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -124,7 +132,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 
                   <option name="choix1" value="distributeur">Un distributeur</option>
 
-                  <option name="choix2" value="client">Un client</option>
+                  <option name="choix2" value="particulier">Un client</option>
 
                 </select>
 
@@ -134,7 +142,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 
                   <label for="inputname">Nom </label>
 
-                  <input required type="text" name="name" class="form-control" id="inputname" value="<?php echo isset($_SESSION['inputs']['name'])? $_SESSION['inputs']['name'] : ''; ?>">
+                  <input required type="text" name="name" pattern="([a-zA-Z\s]){1,30}" class="form-control" id="inputname" value="<?php echo isset($_SESSION['inputs']['name'])? $_SESSION['inputs']['name'] : ''; ?>">
 
               </li>
 

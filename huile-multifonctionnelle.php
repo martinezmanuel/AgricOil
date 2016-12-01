@@ -5,10 +5,14 @@
   <head>
 
     <meta  charset="UTF-8" />
+    <meta name="descrition" content="">
+    <meta name="keywords" content="huile multifonction Agricoil">
+        
+    
 
-        <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
-        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen"/>
+        <link type="text/css" rel="stylesheet" href="css/style.min.css"/>
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Huile multifonctionnelle</title>
@@ -39,9 +43,9 @@
 
          <h2>HUILE MULTIFONCTIONS</h2>
 
-        Nos huiles multifonctions sont recommand&#233es pour l’agricole, l’industrie, les travaux publics ...</br>
+        Nos huiles multifonctions sont recommandées pour l’agricole, l’industrie, les travaux publics ...</br>
         </br>
-        Fortes d’un pouvoir d&#233tergent &#233lev&#233 et de propri&#233t&#233s anti-rouille renforc&#233es, elles permettent la lubrification des transmissions, des &#233quipements hydrauliques, des freins et embrayages immerg&#233s, voire le graissage des moteurs suraliment&#233s.
+        Fortes d’un pouvoir détergent élevé et de propriétés anti-rouille renforcées, elles permettent la lubrification des transmissions, des équipements hydrauliques, des freins et embrayages immergés, voire le graissage des moteurs suralimentés.
         
       </div>
        

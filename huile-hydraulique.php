@@ -4,11 +4,15 @@
 
   <head>
 
-   <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
+    <meta name="descrition" content=" description des huiles de type transmission ">
+    <meta name="keywords" content="huile de transmission Agricoil,huile de boite de vitesse,transmission hydrostatique,bio">
+       
+    
 
-        <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
-        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen"/>
+        <link type="text/css" rel="stylesheet" href="css/style.min.css"/>
         
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -41,9 +45,9 @@
 
          <h2>HUILE HYDRAULIQUE</h2>
 
-        L’huile hydraulique HV Agric’Oil est essentiellement destin&#233e pour des applications n&#233cessitant un fluide à haut indice de viscosit&#233 (Pour l’industrie, pour le levage et la manutention, pour les travaux publics ... )</br>
+        L’huile hydraulique HV Agric’Oil est essentiellement destinée pour des applications nécessitant un fluide à haut indice de viscosité (Pour l’industrie, pour le levage et la manutention, pour les travaux publics ... )</br>
       </br>
-        Notre catalogue d’huiles hydrauliques couvrent les grades ISO 22, 32, 46, 46 BIO et 68. Ces huiles ont une excellente filtrabilit&#233 (DENISON HF-2). Leur remarquable stabilit&#233 à l’hydrolyse et à l’oxydation garantissent la propret&#233 des circuits hydrauliques et la long&#233vit&#233 des organes. 
+        Notre catalogue d’huiles hydrauliques couvrent les grades ISO 22, 32, 46, 46 BIO et 68. Ces huiles ont une excellente filtrabilité (DENISON HF-2). Leur remarquable stabilité à l’hydrolyse et à l’oxydation garantissent la propreté des circuits hydrauliques et la longévité des organes. 
        
       </div>
        

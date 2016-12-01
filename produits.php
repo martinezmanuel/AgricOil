@@ -5,10 +5,14 @@
 <head>
 
     <meta  charset="UTF-8" />
+    <meta name="descrition" content="">
+    <meta name="keywords" content="">
+        
+    
 
-    <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
-	  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
+	  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen"/>
+    <link type="text/css" rel="stylesheet" href="css/style.min.css"/>
     <!--[if lt IE 9]>
     <script src="http//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]--> 

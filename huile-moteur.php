@@ -5,10 +5,14 @@
   <head>
 
     <meta charset="UTF-8" />
+    <meta name="descrition" content="description des huiles moteur de la marque agric'oil">
+    <meta name="keywords" content="huile moteur Agricoil,10W40,15W40">
+      
+    
 
-        <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
-        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen"/>
+        <link type="text/css" rel="stylesheet" href="css/style.min.css"/>
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -40,11 +44,11 @@
 
          <h2>HUILE MOTEUR</h2>
 
-        Nos huiles moteur sont recommand&#233es pour une large gamme de v&#233hicules : tracteurs, quads, autos, motos, poids-lourds, t&#233lescopiques, bateaux ...</br>
-        Elles r&#233pondent aux exigences les plus s&#233v&#232res des diff&#233rents constructeurs.</br>
+        Nos huiles moteur sont recommandées pour une large gamme de véhicules : tracteurs, quads, autos, motos, poids-lourds, télescopiques, bateaux ...</br>
+        Elles répondent aux exigences les plus sévères des différents constructeurs.</br>
 
-        À d&#233couvrir, nos huiles stars :</br>
-        . L’OPALISE 15W40 et ses propri&#233t&#233s anti-oxydation renforc&#233es.</br>
+        À découvrir, nos huiles stars :</br>
+        . L’OPALISE 15W40 et ses propriétées anti-oxydation renforcées.</br>
         . La GALIUM 10W40, respectueuse des normes Euro II et Euro III
        
       </div>
