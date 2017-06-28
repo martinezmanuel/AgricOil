@@ -7,7 +7,7 @@
       <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
       <meta name="descrition" content="description des huiles pour les pompes a vide de type machine à traire ">
       <meta name="keywords" content="huile pompe à vide Agricoil,huile machine à traire">
-      
+      <meta name="author" content="Martinez Manuel" />
     
         <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen"/>
@@ -35,7 +35,7 @@
       
        <div class="fiche">
         
-        <img src="images/fiche-produits/bidon-huile-hydraulique.jpg" alt="huile-hydraulique">
+        <img src="images/fiche-produits/bidon-compair.jpg" alt="huile-pompe-a-vide">
         
        </div>  
  
@@ -51,7 +51,7 @@
 
        <div class="lien" id="menu">
 
-          <a href="produits.php">Retour</a> 
+          <a href="types-d-huiles-agricoles.php">Retour</a> 
 
           <a href="contact.php">Contact</a>
 

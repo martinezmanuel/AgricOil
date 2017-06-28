@@ -7,7 +7,7 @@
     <meta charset="UTF-8" />
     <meta name="descrition" content="descriptif pour les types d'huiles reservé à une utilisation sur du matériel forestier">
     <meta name="keywords" content="huile tronçonneuse Agricoil,huile tronçonneuse chaine,bio">
-    
+    <meta name="author" content="Martinez Manuel" />
     
 
         <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
@@ -37,7 +37,7 @@
 
        <div class="fiche">
         
-        <img class="huile" src="images/fiche-produits/bidon-huile-hydraulique.jpg" alt="huile-hydraulique">
+        <img class="huile" src="images/fiche-produits/bidon-huile-forestiere.jpg" alt="huile-forestiere">
         
       </div>
 
@@ -55,7 +55,7 @@
        
         <div class="lien" id="menu">
 
-          <a href="produits.php">Retour</a> 
+          <a href="types-d-huiles-agricoles.php">Retour</a> 
 
           <a href="contact.php">Contact</a>
 

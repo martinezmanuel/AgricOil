@@ -7,7 +7,7 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta name="descrition" content="description des huile ricinée pour les tracteur de collection">
         <meta name="keywords" content="huile ricinée Agricoil,huile vieux tracteur,tracteur de collection">
-        
+        <meta name="author" content="Martinez Manuel" />
     
 
         <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
@@ -36,7 +36,7 @@
 
       <div class="fiche">
 
-        <img src="images/fiche-produits/bidon-huile-hydraulique.jpg" alt="huile-hydraulique">
+        <img src="images/fiche-produits/bidon-ricinoil.jpg" alt="huile-ricinée">
         
       </div>  
       
@@ -57,7 +57,7 @@
 
         <div class="lien" id="menu">
 
-          <a href="produits.php">Retour</a> 
+          <a href="types-d-huiles-agricoles.php">Retour</a> 
 
           <a href="contact.php">Contact</a>
 

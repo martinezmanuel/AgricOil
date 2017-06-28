@@ -5,11 +5,9 @@ include 'recherche.php';
   <html lang="fr">
 
 <head>
-
         <meta charset="UTF-8" />
         <meta name="descrition" content="tableau de correspondance entre les huiles de la gamme agricoil et les huiles de marques concurante">
-        <meta name="keywords" content="">
-    
+        <meta name="author" content="Martinez Manuel" />    
         <link type="text/css" rel="stylesheet" href="css/normalise.min.css"/>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen"/>
         <link type="text/css" rel="stylesheet" href="css/style.min.css"/>

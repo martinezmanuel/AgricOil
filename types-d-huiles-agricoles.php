@@ -6,7 +6,7 @@
 
     <meta  charset="UTF-8" />
     <meta name="descrition" content="">
-    <meta name="keywords" content="">
+    <meta name="author" content="Martinez Manuel" />
         
     
 
@@ -39,7 +39,7 @@
 
       <div class="produit">
 
-          <a href="huile-moteur.php">
+          <a href="huile-moteur-agricole.php">
 
             <figure class="gauche">
 
@@ -55,7 +55,7 @@
 
           </a>
 
-          <a href="huile-hydraulique.php">
+          <a href="huile-agricole-hydraulique.php">
 
             <figure class="droite">
 
@@ -153,7 +153,7 @@
 
           </a>
 
-          <a href="huile-ricinee.php">
+          <a href="huile-ricinee-agricole.php">
 
             <figure class="droite">
 

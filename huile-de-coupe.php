@@ -7,7 +7,7 @@
     <meta charset="UTF-8" />
     <meta name="descrition" content="description des produits de type huile de coupe">
     <meta name="keywords" content="huile de coupe Agricoil,huile de coupe scie à ruban,huile synthétique">
-        
+    <meta name="author" content="Martinez Manuel" />    
     
 
         <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
@@ -37,7 +37,7 @@
 
       <div class="fiche">
         
-        <img src="images/fiche-produits/bidon-huile-hydraulique.jpg" alt="huile-hydraulique">
+        <img src="images/fiche-produits/bidon-multicoup.jpg" alt="huile-multicoup">
         
       </div>  
       
@@ -56,7 +56,7 @@
 
         <div class="lien" id="menu">
 
-          <a href="produits.php">Retour</a> 
+          <a href="types-d-huiles-agricoles.php">Retour</a> 
 
           <a href="contact.php">Contact</a>
 

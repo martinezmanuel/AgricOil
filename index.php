@@ -7,7 +7,7 @@
         <meta charset="UTF-8" />
         <meta name="descrition" content="Page d'accueil du site d'Acricoil un site vitrine pour des huiles de fabrication française dans le domaine de l'agricole et d'autre ">
         <meta name="keywords" content="Agricoil,accueil,huiles">
-    
+        <meta name="author" content="Martinez Manuel" />
         <link type="text/css" rel="stylesheet" href="css/normalise.min.css"/>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen"/>
         <link type="text/css" rel="stylesheet" href="css/style.min.css"/>
@@ -34,7 +34,7 @@
 
         <div class="lien" id="menu">
 
-          <a href="produits.php">Huiles</a> 
+          <a href="types-d-huiles-agricoles.php">Huiles</a> 
 
           <a href="contact.php">Contact</a>
 

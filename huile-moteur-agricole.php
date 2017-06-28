@@ -4,10 +4,10 @@
 
   <head>
 
-    <meta  charset="UTF-8" />
-    <meta name="descrition" content="">
-    <meta name="keywords" content="huile multifonction Agricoil">
-    <meta name="author" content="Martinez Manuel" />    
+    <meta charset="UTF-8" />
+    <meta name="descrition" content="description des huiles moteur de la marque agric'oil">
+    <meta name="keywords" content="huile moteur Agricoil,10W40,15W40">
+    <meta name="author" content="Martinez Manuel" />  
     
 
         <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
@@ -15,7 +15,8 @@
         <link type="text/css" rel="stylesheet" href="css/style.min.css"/>
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Huile multifonctionnelle</title>
+
+    <title>Huile moteur agricole</title>
 
   </head>
 
@@ -27,7 +28,7 @@
      
      <div class="centrale" id="huile">
 
-       <div class="marque">  
+       <div class="marque"> 
 
         <img class="ecusson" src="images/ecussons/ecusson-agricoil.jpg" alt="ecussons agricoil">
 
@@ -35,18 +36,21 @@
 
       <div class="fiche">
         
-        <img src="images/fiche-produits/bidon-huile-multifonctionnelle.jpg" alt="huile-multifonctionnelle">
+        <img src="images/fiche-produits/huile-moteur.jpg" alt="huile-moteur">
         
-      </div>  
-       
+      </div>
+         
       <div class="text">
 
-         <h2>HUILE MULTIFONCTIONS</h2>
+         <h2>HUILE MOTEUR</h2>
 
-        Nos huiles multifonctions sont recommandées pour l’agricole, l’industrie, les travaux publics ...</br>
-        </br>
-        Fortes d’un pouvoir détergent élevé et de propriétés anti-rouille renforcées, elles permettent la lubrification des transmissions, des équipements hydrauliques, des freins et embrayages immergés, voire le graissage des moteurs suralimentés.
-        
+        Nos huiles moteur sont recommandées pour une large gamme de véhicules : tracteurs, quads, autos, motos, poids-lourds, télescopiques, bateaux ...</br>
+        Elles répondent aux exigences les plus sévères des différents constructeurs.</br>
+
+        À découvrir, nos huiles stars :</br>
+        . L’OPALISE 15W40 et ses propriétées anti-oxydation renforcées.</br>
+        . La GALIUM 10W40, respectueuse des normes Euro II et Euro III
+       
       </div>
        
 
@@ -59,11 +63,10 @@
         </div>
 
       </div> 
-
+       
     </div> 
-
-        
-    <div class="footer">    
+    
+    <div class="footer">   
 
       <footer>
 
@@ -72,11 +75,12 @@
       </footer> 
 
     </div>
+       
 
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/background2.js"></script> 
-           
+        <script type="text/javascript" src="js/background2.js"></script>  
+
   </body>
 
   </html>

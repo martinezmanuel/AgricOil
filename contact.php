@@ -1,6 +1,4 @@
 <?php
-
-
   // S'il y des données de postées
 if ($_SERVER['REQUEST_METHOD']=='POST') {
   // Code PHP pour traiter l'envoi de l'email
@@ -90,8 +88,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 <head>
     <meta charset="UTF-8" />
     <meta name="descrition" content="page de contact pour toute demande d'information sur les produits de la gamme Agric'oil">
-    <meta name="keywords" content="">
-        
+    <meta name="author" content="Martinez Manuel" />   
     
 
     <link rel="stylesheet" type="text/css" href="css/normalise.min.css"/>
